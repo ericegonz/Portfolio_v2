@@ -1,29 +1,12 @@
 import React, { Component } from 'react';
 import MyFace from "../../assets/face.png";
-import { keyframes } from "styled-components";
 
 export default class Overview extends Component {
   render() {
-    // const pulse = keyframes`
-    //     0%,to {
-    //         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-    //         filter: alpha(opacity=40);
-    //         opacity: .4;
-    //         top: 0
-    //     }
-    //
-    //     50% {
-    //         -ms-filter: none;
-    //         -webkit-filter: none;
-    //         filter: none;
-    //         opacity: 1;
-    //         top: -10px
-    //     }
-    // `;
-
     const header = {
       fontWeight: "700"
     };
+
 
     const overview_text = {
       color: "white",
@@ -38,19 +21,12 @@ export default class Overview extends Component {
       height: "290px"
     };
 
-    // const icon_animation = {
-    //     animation: `${pulse} 2s linear infinite`
-    // };
-
     return (
       <div style={overview_text}>
-        <img style={my_face} src={MyFace}/>
-        <h1 className="display-4" style={header}>eric gonzalez</h1>
+        <img style={my_face} src={MyFace} alt={"Eric Gonzalez"}/>
+        <h1 className="display-4" style={header}>it's nice to meet you.</h1>
         <h2 className="display-5">software engineer</h2>
         <h2 className="display-5">graphic designer</h2>
-        <a href="#">
-          <span className="glyphicon glyphicon-chevron-down" ></span>
-        </a>
       </div>
     )
   }
