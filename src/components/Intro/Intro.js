@@ -8,27 +8,25 @@ export default class Landing extends Component {
   render() {
     const landing_page = {
       backgroundColor: "#153e72",
-      minHeight: "95vh",
-    };
+      height: "100vh",
+      width: "100vw",
+      overflow: 'hidden',
+      position: 'relative'
+  };
 
-    const icon_down = {
-      fontSize: "35px",
-      bottom: "135px",
-      top: "unset"
-    };
 
     const particles = {
-      minHeight: "95vh"
+      top: "0",
+      left: "0",
+      height: "100%",
+      width: "100%",
+      position: 'absolute'
     };
 
-    console.log(ParticleConfig);
     return (
       <div style={landing_page}>
         <Particles style={particles} params={ParticleConfig}/>
         <Overview/>
-        <a href="#about_me">
-          <span className="glyphicon glyphicon-chevron-down" style={icon_down}></span>
-        </a>
       </div>
     )
   }

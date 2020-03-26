@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="App">
         <Header/>
-        <Intro/>
+        <Intro id={"intro"} />
         <AboutMe id={"about_me"}/>
+
     </div>
   );
 }

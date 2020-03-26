@@ -9,7 +9,7 @@ export default class AboutMe extends Component {
         const main_div = {
             lineHeight: "2.25em",
             padding: "5% 0",
-            width: "65%",
+            width: "90%",
             margin: "0 auto"
         };
 
@@ -22,7 +22,7 @@ export default class AboutMe extends Component {
         };
 
         const smaller_div = {
-            padding: "15px"
+            padding: "3%"
         };
 
         const dev_icons = {
@@ -56,7 +56,7 @@ export default class AboutMe extends Component {
 
                 <div className="tech" style={smaller_div}>
                     <h2 className={"display-4"} style={titles}>Languages/Frameworks</h2>
-                    <div className="container" style={icon_container}>
+                    <div className="container-fluid" style={icon_container}>
                         <div className="row">
                             <div className="col-sm">
                                 <i className="devicon-python-plain colored" style={dev_icons}/>
@@ -96,7 +96,7 @@ export default class AboutMe extends Component {
 
                 <div className="tech" style={smaller_div}>
                     <h2 className={"display-4"} style={titles}>Technologies/Tools</h2>
-                    <div className="container" style={icon_container}>
+                    <div className="container-fluid" style={icon_container}>
                         <div className="row">
                             <div className="col-sm">
                                 <i className="devicon-linux-plain colored" style={dev_icons}/>
@@ -132,7 +132,7 @@ export default class AboutMe extends Component {
 
                 <div className="tech" style={smaller_div}>
                     <h2 className={"display-4"} style={titles}>Graphic Design</h2>
-                    <div className="container" style={icon_container}>
+                    <div className="container-fluid" style={icon_container}>
                         <div className="row">
                             <div className="col-sm">
                                 <img src={Photoshop} alt={"Adobe Photoshop"} style={dev_icons}/>

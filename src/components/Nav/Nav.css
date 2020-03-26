@@ -1,0 +1,14 @@
+.topbar{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    text-align:center;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    transition:top .3s;
+    z-index: 100;
+}
+
+.hide{
+    top:-57px
+}
