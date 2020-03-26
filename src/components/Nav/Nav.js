@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Button, Nav, Navbar} from "react-bootstrap";
 import './Nav.css'
+import Resume from '../../assets/resume_redacted.pdf';
+
 
 export default class Header2 extends Component {
     constructor(props){
@@ -51,7 +53,7 @@ export default class Header2 extends Component {
                     <Nav.Link href="#experience" style={navbar_links}>experience</Nav.Link>
                     <Nav.Link href="#contact" style={navbar_links}>contact</Nav.Link>
                 </Nav>
-                <Button variant="outline-info" style={resume_download}>resume</Button>
+                <Button href = {Resume} target = "_blank" variant="outline-info" style={resume_download}>resume</Button>
             </Navbar>
         )
     }
