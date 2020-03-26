@@ -8,7 +8,6 @@ export default class AboutMe extends Component {
     render() {
         const main_div = {
             lineHeight: "2.25em",
-            padding: "5% 0",
             width: "90%",
             margin: "0 auto"
         };
@@ -55,7 +54,7 @@ export default class AboutMe extends Component {
                 </div>
 
                 <div className="tech" style={smaller_div}>
-                    <h2 className={"display-4"} style={titles}>Languages/Frameworks</h2>
+                    <h2 className={"display-4"} style={titles}>Languages & Frameworks</h2>
                     <div className="container-fluid" style={icon_container}>
                         <div className="row">
                             <div className="col-sm">

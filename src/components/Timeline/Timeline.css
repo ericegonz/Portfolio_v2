@@ -1,0 +1,16 @@
+.resume-timeline::before {
+    background: #333A40;
+}
+
+.vertical-timeline-element-date{
+    color: white;
+    font-size: 15px !important;
+}
+
+@media only screen and (min-width: 1170px){
+    .vertical-timeline-element-date{
+        color: #333333;
+        font-size: 17px !important;
+        text-align: left;
+    }
+}
