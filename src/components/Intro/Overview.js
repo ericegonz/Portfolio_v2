@@ -31,7 +31,7 @@ export default class Overview extends Component {
         <h1 className="display-4" style={header}>it's nice to meet you.</h1>
         <h2 className="display-5">software engineer</h2>
         <h2 className="display-5">graphic designer</h2>
-        <a href="#about_me">
+        <a href="#">
           <span className="glyphicon glyphicon-chevron-down" style={icon_down}/>
         </a>
       </div>

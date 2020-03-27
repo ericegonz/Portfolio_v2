@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Button, Nav, Navbar} from "react-bootstrap";
-import './Nav.css'
 import Resume from '../../assets/resume_redacted.pdf';
-
+import {BrowserRouter as Router, Link} from "react-router-dom";
+import './Nav.css'
 
 export default class Header2 extends Component {
     constructor(props){
@@ -47,11 +47,14 @@ export default class Header2 extends Component {
 
         return (
             <Navbar className={"topbar "+classHide} bg="dark" variant="dark">
+                <Router>
+                    <Link to="#experience"> Experience</Link>
+                </Router>
                 <Navbar.Brand href="#home" style={navbar_brand}>eric g</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about_me" style={navbar_links}>about</Nav.Link>
-                    <Nav.Link href="#experience" style={navbar_links}>experience</Nav.Link>
-                    <Nav.Link href="#contact" style={navbar_links}>contact</Nav.Link>
+                    <Nav.Link style={navbar_links}>about</Nav.Link>
+                    <Nav.Link style={navbar_links}>experience</Nav.Link>
+                    <Nav.Link style={navbar_links}>contact</Nav.Link>
                 </Nav>
                 <Button href = {Resume} target = "_blank" variant="outline-info" style={resume_download}>resume</Button>
             </Navbar>

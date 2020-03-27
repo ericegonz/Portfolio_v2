@@ -17,7 +17,9 @@ export default class AboutMe extends Component {
         };
 
         const titles = {
-            margin: "35px 0"
+            fontSize: "2em",
+            fontWeight: "bold",
+            margin: "25px 0"
         };
 
         const smaller_div = {
@@ -54,29 +56,29 @@ export default class AboutMe extends Component {
                 </div>
 
                 <div className="tech" style={smaller_div}>
-                    <h2 className={"display-4"} style={titles}>Languages & Frameworks</h2>
+                    <h2 className={"display-5"} style={titles}>Languages & Frameworks</h2>
                     <div className="container-fluid" style={icon_container}>
                         <div className="row">
-                            <div className="col-sm">
-                                <i className="devicon-python-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-python-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-cplusplus-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-cplusplus-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-javascript-plain" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-javascript-plain"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-nodejs-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-nodejs-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-angularjs-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-angularjs-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-react-original colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-react-original colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-mysql-plain-wordmark colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-mysql-plain-wordmark colored"/>
                             </div>
                         </div>
                     </div>
@@ -94,29 +96,29 @@ export default class AboutMe extends Component {
                 </div>
 
                 <div className="tech" style={smaller_div}>
-                    <h2 className={"display-4"} style={titles}>Technologies/Tools</h2>
+                    <h2 className={"display-5"} style={titles}>Technologies/Tools</h2>
                     <div className="container-fluid" style={icon_container}>
                         <div className="row">
-                            <div className="col-sm">
-                                <i className="devicon-linux-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-linux-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-debian-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-debian-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-ubuntu-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-ubuntu-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-vim-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-vim-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-github-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-github-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-pycharm-plain colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-pycharm-plain colored"/>
                             </div>
-                            <div className="col-sm">
-                                <i className="devicon-apache-line-wordmark colored" style={dev_icons}/>
+                            <div className="col-sm" style={dev_icons}>
+                                <i className="devicon-apache-line-wordmark colored"/>
                             </div>
                         </div>
                     </div>
@@ -130,7 +132,7 @@ export default class AboutMe extends Component {
                 </div>
 
                 <div className="tech" style={smaller_div}>
-                    <h2 className={"display-4"} style={titles}>Graphic Design</h2>
+                    <h2 className={"display-5"} style={titles}>Graphic Design</h2>
                     <div className="container-fluid" style={icon_container}>
                         <div className="row">
                             <div className="col-sm">
@@ -156,9 +158,9 @@ export default class AboutMe extends Component {
                 </div>
 
                 <div className="tech" style={smaller_div}>
-                  <h2 className={"display-4"} style={titles}>Reach Out</h2>
+                  <h2 className={"display-5"} style={titles}>Reach Out</h2>
                   <p style={description}>Shoot me an email at ericegonz.se@gmail.com, or feel free to reach out to me on
-                      <a href="http://linkedin.com/in/ericegonz" target="_blank"> LinkedIn</a>.
+                      <a href="http://linkedin.com/in/ericegonz" target="_blank" rel="noopener noreferrer"> LinkedIn</a>.
                   </p>
                 </div>
             </div>

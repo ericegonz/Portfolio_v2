@@ -124,8 +124,8 @@ export default class Timeline extends Component {
               icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title" style={positionName}>B.S. in Computer Science</h3>
-            <h3 className="vertical-timeline-element-title" style={positionName}>w/ Business Applications</h3>
-            <h4 className="vertical-timeline-element-subtitle" style={positionInfo}></h4>
+            {/*<h4 className="vertical-timeline-element-title" style={positionName}>w/ Business Applications</h4>*/}
+            <h4 className="vertical-timeline-element-subtitle" style={positionInfo}>w/ Business Applications</h4>
             <p className="vertical-timeline-element-subtitle" style={description}>
               University of California, Riverside
             </p>
