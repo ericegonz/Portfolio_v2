@@ -22,9 +22,11 @@
       "institution": "ViaTouch Media, Inc",
       "location": "San Diego, CA",
       "dates": "April 2017 – November 2019",
-      "brief_description": "",
+      "brief_description": "Was promoted to Senior Software Engineer for rapid growth, progress and success mentoring others in this position.",
       "bullet_points": [
-        "• Bullet 1."
+        "• Implemented the first primitive version of the VICKI Retail System Interface and Natural Language Processing Automated Shopping Assistant",
+        "• Used open source libraries (i.e. Bleno) to interface with BLE peripherals, establishing communication between phone applications and a remote server.",
+        "• Performed networking tasks like setting static IP addresses, analyzing traffic on WireShark and designing topographies."
       ]
     },
     {
