@@ -2,7 +2,7 @@
   "name": "eric-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ericegonz.github.io",
+  "homepage": "http://ericegonz.github.io/portfolio",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.9.1",
@@ -22,9 +22,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ../static && mv build/* ..",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
