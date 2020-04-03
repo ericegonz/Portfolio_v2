@@ -1,0 +1,67 @@
+{
+  "code" : [
+    {
+      "title": "Senior Software Engineer",
+      "institution": "ViaTouch Media, Inc",
+      "location": "San Diego, CA",
+      "dates": "November 2019 – Present",
+      "brief_description": "ViaTouch Media develops intelligent retail experiences for clients such as Dell, 7-Eleven, P&G, Estee Lauder,\nCiti, Canteen, Goldman Sachs, 24 Hour Fitness, RugDoctor, Walmart & more. As a senior software engineer working directly under the CTO, I was responsible for the design, architecture, execution and the implementation of a number of the company’s software products through their continued life cycle.",
+      "bullet_points": [
+        "• Screened, interviewed, mentored, & on-boarded several new team members.",
+        "• Implemented scalable, well-structured & documented code for applications using Agile development.",
+        "• Met with clients to discuss requirements, software integrations and trainings of existing software solutions.",
+        "• Used Git as version control to keep code, commits, branches & releases organized.",
+        "• Played integral role in VICKI product development team including R&D, prototyping, testing and more.",
+        "• Created, & executed update packages for ~4000 production Windows & Linux automated retail kiosks.",
+        "• Migrated, modified, maintained & created SQL databases for transactions, products, pricing, etc.",
+        "• Learning .NET Core framework in C#/C++ to communicate with secure devices (i.e. biometrics scanners, payment readers) with a focus on cross-platform execution using Mono."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "institution": "ViaTouch Media, Inc",
+      "location": "San Diego, CA",
+      "dates": "April 2017 – November 2019",
+      "brief_description": "",
+      "bullet_points": [
+        "• Bullet 1."
+      ]
+    },
+    {
+      "title": "Software Development Engineering Intern",
+      "institution": "ViaTouch Media, Inc",
+      "location": "Corona, CA",
+      "dates": "January 2017 – April 2017",
+      "brief_description": "",
+      "bullet_points": [
+        "• Developed, executed & documented User Acceptance Tests.",
+        "• Created technical documentation to record protocols, code, & other pieces of software as necessary.",
+        "• Drafted Engineering Change Orders (ECOs) and helped develop project specifications"
+      ]
+    }
+  ],
+  "generic": [
+    {
+      "title": "Media Development Supervisor/Graphic Designer",
+      "institution": "ViaTouch Media, Inc",
+      "location": "Riverside, CA",
+      "dates": "January 2014 – January 2017",
+      "brief_description": "",
+      "bullet_points": [
+        "• Conceptualized and implemented creative solutions that met UCR Recreation debarment marketing strategies.",
+        "• Oversaw projects from concept to completion in design, videography, social media campaigns and more.",
+        "• Played lead role in performance evaluation assessments, organizing training sessions and selection process."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "B.S. Computer Science w/ Business Applications",
+      "institution": "University of California, Riverside",
+      "location": "Riverside, CA",
+      "dates": "2017",
+      "brief_description": "",
+      "bullet_points": []
+    }
+  ]
+}

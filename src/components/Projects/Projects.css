@@ -1,0 +1,34 @@
+.main-accordion{
+    line-height: 24px;
+}
+
+.card{
+    text-align: left;
+}
+
+.project-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.project-brief-description{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.project-technologies-used{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.company-name{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.toggle-button{
+    color: #3D434C;
+    background-color: #CCE1FF;
+    font-size: 14px;
+}

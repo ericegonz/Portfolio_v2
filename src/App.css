@@ -3,7 +3,8 @@
 body {
   scroll-behavior: smooth;
   font-family: 'Montserrat',sans-serif;
-  /*background-color: #343a40!important;*/
+  background-color: #FFFFFF!important;
+  overflow-x: hidden;
 }
 
 .App {
@@ -40,6 +41,26 @@ body {
   color: #61dafb;
 }
 
+.main-sections{
+  line-height: 2.25em;
+  width: 98%;
+  margin: 0 auto 5%;
+}
+
+.container-user-details{
+  padding: 1%;
+}
+
+.container-sub-headers{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.container-description{
+  padding-bottom: 10px;
+  font-size: 18px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -64,5 +85,11 @@ body {
     filter: none;
     opacity: 1;
     top: -10px
+  }
+}
+
+@media only screen and (min-width: 1170px){
+  .main-sections{
+    width: 70%;
   }
 }

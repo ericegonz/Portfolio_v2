@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+window.$resume_url = "https://drive.google.com/file/d/144uWqd-PyC7_9tkN_zvEbR-IYBL-HdAd/view";
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

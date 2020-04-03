@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MyFace from "../../assets/face.png";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default class Overview extends Component {
   render() {
@@ -31,9 +32,9 @@ export default class Overview extends Component {
         <h1 className="display-4" style={header}>it's nice to meet you.</h1>
         <h2 className="display-5">software engineer</h2>
         <h2 className="display-5">graphic designer</h2>
-        <a href="#">
-          <span className="glyphicon glyphicon-chevron-down" style={icon_down}/>
-        </a>
+          <Link smooth to={"#about_me"}>
+              <span className="glyphicon glyphicon-chevron-down" style={icon_down}/>
+          </Link>
       </div>
     )
   }

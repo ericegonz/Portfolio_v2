@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Responsive Portfolio Website",
+    "company_name": "Eric Gonzalez",
+    "brief_description": "I built the modern, responsive, scalable website you're on now from scratch using React",
+    "technologies_used": "HTML5, JavaScript, Bootstrap, React, React Router, Git, WebStorm",
+    "description": "Coming Soon",
+    "images" : [
+      {
+        "path": "../../assets/idlarge.png",
+        "caption": "Testing"
+      }
+    ]
+  },
+  {
+    "name": "Automated System Updater",
+    "company_name": "ViaTouch Media’s VICKI",
+    "brief_description": "Robust file, database, & general firmware updater that reports failures & successes to secured API",
+    "technologies_used": "Python, MySQL/MariaDB, Git, OAuth 2.0 REST & HTTP APIs, PyCharm",
+    "description": "Coming Soon",
+    "images" : []
+  },
+  {
+    "name": "Retail System Interface (UI & UX) - Main & Supplementary Screens",
+    "company_name": "ViaTouch Media’s VICKI",
+    "brief_description": "Dynamic media-rich Interfaces with virtual carts with voice-guided experiences & technician control panels",
+    "technologies_used": "JavaScript, AngularJS, AJAX, HTTP APIs, HTML, Sketch & Adobe Creative Suite (UI/UX), WebStorm",
+    "description": "Coming Soon",
+    "images" : []
+  },
+  {
+    "name": "Natural Language Processing Automated Shopping Assistant",
+    "company_name": "ViaTouch Media’s VICKI",
+    "brief_description": "Powerful voice Q&A assistant with abilities to fetch weather, trigger voice-activated media & more",
+    "technologies_used": "Python, PyAudio, Boto 3, Google Cloud, MySQL, Git, OAuth 2.0 REST & HTTP APIs, PyCharm",
+    "description": "Coming Soon",
+    "images" : []
+  },
+  {
+    "name": "Temperature Monitoring Application & Network Monitoring Application",
+    "company_name": "ViaTouch Media’s VICKI",
+    "brief_description": "Two always-on services that monitored access to IoT subsystems & readings from temperature sensors, & report failures/anomalies to an API & SMS notification system",
+    "technologies_used": "Python, udev, tty, init, systemd, Supervisor, crontab, MySQL/MariaDB, OAuth 2.0 REST & HTTP APIs",
+    "description": "Coming Soon",
+    "images" : []
+  },
+  {
+    "name": "Load Sensor Data Harvesting Tools",
+    "company_name": "ViaTouch Media’s VICKI",
+    "brief_description": "Applications used to generate, analyze & simulate sensor data to improve inventory tracking algorithms",
+    "technologies_used": "Python, CAN bus, JavaScript, Node, Plotly, RS232, Proxy Development, Wireshark, TCP/IP & UDP",
+    "description": "Coming Soon",
+    "images" : []
+  }
+]

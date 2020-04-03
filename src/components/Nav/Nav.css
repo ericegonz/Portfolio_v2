@@ -7,6 +7,13 @@
     box-shadow: 0 4px 4px rgba(0,0,0,0.2);
     transition:top .3s;
     z-index: 100;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 1170px){
+    .topbar{
+        font-size: 14px;
+    }
 }
 
 .hide{

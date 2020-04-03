@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import {Button, Nav, Navbar} from "react-bootstrap";
-import Resume from '../../assets/resume_redacted.pdf';
-import {BrowserRouter as Router, Link} from "react-router-dom";
+import { Button, Nav, Navbar } from "react-bootstrap";
+import { HashLink as Link } from "react-router-hash-link";
 import './Nav.css'
 
 export default class Header2 extends Component {
@@ -47,16 +46,21 @@ export default class Header2 extends Component {
 
         return (
             <Navbar className={"topbar "+classHide} bg="dark" variant="dark">
-                <Router>
-                    <Link to="#experience"> Experience</Link>
-                </Router>
-                <Navbar.Brand href="#home" style={navbar_brand}>eric g</Navbar.Brand>
+                <Link smooth to={"#header"}>
+                    <Navbar.Brand style={navbar_brand}>eric g</Navbar.Brand>
+                </Link>
                 <Nav className="mr-auto">
-                    <Nav.Link style={navbar_links}>about</Nav.Link>
-                    <Nav.Link style={navbar_links}>experience</Nav.Link>
-                    <Nav.Link style={navbar_links}>contact</Nav.Link>
+                    <Link smooth to={"#about_me"}>
+                        <Nav.Link style={navbar_links}>about</Nav.Link>
+                    </Link>
+                    <Link smooth to={'#experience'}>
+                        <Nav.Link style={navbar_links}>experience</Nav.Link>
+                    </Link>
+                    <Link smooth to={'#contact'}>
+                        <Nav.Link style={navbar_links}>contact</Nav.Link>
+                    </Link>
                 </Nav>
-                <Button href = {Resume} target = "_blank" variant="outline-info" style={resume_download}>resume</Button>
+                <Button href={window.$resume_url} target = "_blank" variant="outline-info" style={resume_download} rel="noopener noreferrer">resume</Button>
             </Navbar>
         )
     }

@@ -1,5 +1,50 @@
+.timeline{
+    padding: 2%;
+}
+
+.resume-timeline {
+    width: 100% !important;
+    max-width: unset !important;
+    margin-top: 30px;
+}
+
+.vertical-timeline-element-content{
+    background: rgb(46, 86, 136);
+    color: #fff;
+}
+
+.vertical-timeline-element-icon{
+    background: rgb(46, 86, 136);
+    box-shadow: 0 0 0 0 #333333, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+    color: #fff;
+}
+
+.vertical-timeline-element-content-arrow{
+    border-right: 7px solid rgb(46, 86, 136);
+}
+
+.vertical-timeline-element-subtitle{
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-bottom: solid lightgrey;
+}
+
+.vertical-timeline-element-title{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.vertical-timeline-bullet-container{
+    text-align: left;
+}
+
 .resume-timeline::before {
     background: #333A40;
+}
+
+.timeline-bullet-point{
+    font-size: 14px !important;
 }
 
 .vertical-timeline-element-date{
