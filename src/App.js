@@ -7,7 +7,6 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import ReachOut from "./components/ReachOut/ReachOut";
 import Experience from "./components/Experience/Experience";
 
-
 function App() {
   return (
       <div className="App">
