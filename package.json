@@ -2,7 +2,7 @@
   "name": "eric-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ericegonz.github.io/site",
+  "homepage": "http://ericegonz.github.io",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.9.1",
