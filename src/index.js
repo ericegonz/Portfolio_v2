@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router} from "react-router-dom";
 
-window.$resume_url = "https://drive.google.com/file/d/144uWqd-PyC7_9tkN_zvEbR-IYBL-HdAd/view";
+window.$resume_url = "https://drive.google.com/file/d/1aM10tAyYcLHdz1toMGX1X9cXLzt8_ecT/view?usp=sharing";
 
 ReactDOM.render(
     <Router basename={process.env.PUBLIC_URL}>
