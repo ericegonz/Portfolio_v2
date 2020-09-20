@@ -1,7 +1,20 @@
 [
   {
+    "name": "Blog Web Application",
+    "company_name": "Personal Project",
+    "brief_description": "Platform in which users could create accounts, read and create blog posts, upload images and interact.",
+    "technologies_used": "HTML5, JavaScript, Django, Git, Pycharm",
+    "description": "Website under construction. Images coming soon...",
+    "images" : [
+      {
+        "path": "../../assets/idlarge.png",
+        "caption": "Testing"
+      }
+    ]
+  },
+  {
     "name": "Responsive Portfolio Website",
-    "company_name": "Eric Gonzalez",
+    "company_name": "Personal Project",
     "brief_description": "I built the modern, responsive, scalable website you're on now from scratch using React",
     "technologies_used": "HTML5, JavaScript, Bootstrap, React, React Router, Git, WebStorm",
     "description": "Website under construction. Images coming soon...",
